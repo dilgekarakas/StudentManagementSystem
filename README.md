@@ -38,12 +38,29 @@ Here are the appropriate java classes for this use case and the dependencies/rel
 -   PermanentInstructor
     -   fixed salary
 
-Hibernate API Annotations
--------------------------
+Running the Project
+-------------------
 
-To make the system ready for database connection, I have used the appropriate annotations of Hibernate API. These annotations will map the java classes to the database tables.
+To run the project, you need to:
 
-Test Class
-----------
+1.  Configure a MySQL database and create a schema.
+2.  Update the database connection details in the `persistence.xml` file.
+3.  Run the `TestStudentManagementApp` class.
 
-To test the system, I have created a test class with a main method and insert test data to the MySQL database.
+The project is built using Maven, so you can easily import it into your IDE and build it from there.
+
+Usage
+-----
+
+To run the project, execute the `TestStudentManagementApp` class, which performs the following operations:
+
+1.  Checks if there is any existing data in the database. If not, it saves test data to the database.
+2.  Finds and displays all the students in the database.
+3.  Finds and displays a specific student by ID.
+4.  Deletes the student that was found in the previous step.
+
+The project includes the following packages:
+
+-   `edu.sabanciuniv.controller`: Contains the `StudentController` class, which provides the CRUD operations for the `Student` entity.
+-   `edu.sabanciuniv.model`: Contains the model classes for the entities `Student`, `Course`, `Instructor`, `PermanentInstructor`, and `VisitingInstructor`.
+-   `edu.sabanciuniv.utility`: Contains the `EntityManagerUtils` class, which provides utility methods for managing the entity manager.
