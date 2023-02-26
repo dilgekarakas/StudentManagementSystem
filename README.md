@@ -6,7 +6,7 @@ This is a School Management System that allows students to take zero or more cou
 UML Diagram
 -----------
 
-![UML Diagram](https://link-to-image/)
+![UML Diagram](https://github.com/dilgekarakas/StudentManagementSystem/blob/master/uml.png)
 
 JPA Project Configuration
 -------------------------
