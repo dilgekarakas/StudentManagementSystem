@@ -11,7 +11,7 @@ UML Diagram
 JPA Project Configuration
 -------------------------
 
-To prepare/configure a JPA project, you will need to create a `persistence.xml` file as a configuration file.
+To prepare/configure a JPA project, I have created a `persistence.xml` file as a configuration file.
 
 Java Classes (Model)
 --------------------
@@ -41,14 +41,9 @@ Here are the appropriate java classes for this use case and the dependencies/rel
 Hibernate API Annotations
 -------------------------
 
-To make the system ready for database connection, you will need to use the appropriate annotations of Hibernate API. These annotations will map the java classes to the database tables.
+To make the system ready for database connection, I have used the appropriate annotations of Hibernate API. These annotations will map the java classes to the database tables.
 
 Test Class
 ----------
 
-To test the system, you will need to create a test class with a main method and insert test data to the MySQL database.
-
-GitHub Repository
------------------
-
-The code for this project has been pushed to a Git repository on GitHub. You can find the repository at <https://github.com/your-repository-link>.
+To test the system, I have created a test class with a main method and insert test data to the MySQL database.
